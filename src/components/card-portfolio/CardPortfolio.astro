@@ -13,19 +13,18 @@ const {
 
 <div class="card__portfolio">
 	<img
-		src={imgSrc}
-		alt={title}
-		crossorigin="anonymous"
-		height={130}
-		width={332}
-		loading="lazy"
-		average-brightness={averageBrightness}
+	src={imgSrc}
+	alt={title}
+	crossorigin="anonymous"
+
+	loading="lazy"
+	average-brightness={averageBrightness}
 	/>
+	<h2 class="card__title0 text-6xl  font-extrabold top-96 text-white/75 ">{title}</h2>
 
 	<div class="descripcion__container">
-		<h2 class="card__title">{title}</h2>
 		<div class="descripcion">
-			<p>{descripcion}</p>
+			<p class="parrafo text-5xl text-center font-bold">{descripcion}</p>
 
 			<div class="skills">
 				{
@@ -35,7 +34,7 @@ const {
 				}
 			</div>
 
-			<div class="buttons">
+			<!-- <div class="buttons">
 				<a href={repoURL}>
 					<span>
 						Github
@@ -49,7 +48,7 @@ const {
 						{(<iconify-icon icon="quill:link-out" />)}
 					</span>
 				</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>

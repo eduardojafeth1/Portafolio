@@ -4,31 +4,15 @@ const socialLinks = [
 	{
 		title: 'LinkedIn',
 		icon: 'simple-icons:linkedin',
-		href: 'https://www.linkedin.com/in/sofidev/',
+		href: 'https://www.linkedin.com/in/eduardo-jafeth-maradiaga-canales/',
 
 	},
-	{
-		title: 'Instagram',
-		icon: 'mdi:instagram',
-		href: 'https://www.instagram.com/',
 
-	},
-	{
-		title: 'Tiwtter',
-		icon: 'ri:twitter-x-fill',
-		href: 'https://twitter.com/home',
-
-	},
-	{
-		title: 'CV',
-		icon: 'tabler:file-cv',
-		href: '../docs/cv_jhon_doe.pdf',
-
-	},
 ];
 ---
 
-<div class="icons__container">
+<div class="icons__container 
+">
     {
         socialLinks.map((data) => (
             <a
@@ -50,7 +34,7 @@ const socialLinks = [
 <style>
 	.icons__container {
 		display: flex;
-    width: 29.6rem;
+
     /* padding: 1.3rem 4rem; */
     justify-content: flex-start;
     align-items: flex-start;

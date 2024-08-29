@@ -9,5 +9,10 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
-  integrations: [react(), tailwind(), sitemap()]
+  integrations: [react(), tailwind(), sitemap()],
+
+  devOptions: {
+    host: '0.0.0.0', // Acepta conexiones desde cualquier IP
+    port: 4001 // O el puerto que prefieras
+  }
 });
